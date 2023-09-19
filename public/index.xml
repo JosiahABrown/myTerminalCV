@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>user@geckolab</title>
-    <link>/</link>
+    <link>http://josiahabrown.github.io/myterminalcv/</link>
     <description>Recent content on user@geckolab</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="http://josiahabrown.github.io/myterminalcv/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
