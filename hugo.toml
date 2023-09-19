@@ -1,0 +1,215 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'user@geckolab'
+theme = 'terminalcv'
+
+[params]
+description = "4s3ti cv terminal format"
+hidesource = true
+prompt = "user@geckolab"
+exitlocation = "https://youtu.be/dQw4w9WgXcQ?si=Kfq-o9YgDF53Q5j4"
+greeting = """
+Welcome to my online resume
+
+
+Type 'help' for a list of available commands
+"""
+
+  [params.whois]
+  name = "Josiah Brown"
+  profession = "Looking for one ;)"
+  location = "Norman, OK"
+  email = "josiah.alen.brown@gmail.com"
+  # homelink = ""
+  description = """
+I speak nerd. Homelabs? Scripting? Gaming? Coin collecting? Sure! Thats me!
+The go-to tech guy in most groups. Experienced in explaining things to Moms.
+I use NixOS btw 
+"""
+
+  [[params.social]]
+  name = "github"
+  url = "          https://github.com/JosiahABrown" 
+
+  [[params.social]]
+  name = "linkedIn"
+  url = "        https://www.linkedin.com/in/josiah-brown-56b639213/"
+
+  [[params.social]]
+  name = "twitter/X"
+  url = "       https://twitter.com/JosiahABrown"
+
+  [[params.social]]
+  name = "substack"
+  url = "        https://josiahalenbrown.substack.com/"
+
+  [[params.work]]
+  jobTitle = "Solutions Engineer"
+  color = "red"
+  company = "BeyondMD"
+  location = "Atlanta, Georgia (Remote)"
+  date = "Feburary 2022 - July 2022"
+  description = """
+My time at BeyondMD was spent developing a Python Selenium-based Unit test for our Clinical tool. 
+While following PEP8 standards and an object-oriented approach it would comb through our website 
+in a way that a client would. Because of the object-based file structure, it was easily maintainable 
+and expandable for various test cases. 
+
+I also grew in my skills with Shell Scripting, Linux, and git. Using this new knowledge I was able 
+to create an automated change log generation script based on the Git log command. 
+It would use the git log command to find the merge messages. Our git flow system used 
+a naming convention for version numbering. The script used Regex to find specific words, count them, and 
+then increase the version number based on the occurences of the key words since the last version number.
+"""
+
+  [[params.work]]
+  jobTitle = "Homelab Nerd"
+  color = "orange"
+  company = "geckolab"
+  location = "At Home"
+  date = "April 2023 - present"
+  description = """
+A networking and sysadmin's playground. My current homelab is running on my old dell desktop 
+with a 10th gen i5, 32gb of RAM, and 1TB of storage. It started when I wanted a place to run 
+self-hosted applications and a Minecraft game server for my friends to use without paying. 
+You can read more about how I set it up here:
+
+https://open.substack.com/pub/josiahalenbrown/p/how-i-turned-my-old-computer-into-a-modded-minecraft-server-9e5685f72e64?r=yvzp8&utm_campaign=post&utm_medium=web
+
+Aside from the Minecraft server running inside Docker, I had other services like tiny tiny RSS and 
+Kavita for reading books and manga. I had these services exposed to the internet using Cloudflared, 
+Cloudflare's tunnel solution. Despite being exposed to the internet, I used 2FA and user access tools 
+to allow certain users access to these services. 
+
+As of September 2023, I completely started from scratch with a Proxmox install. Using Proxmox I can spin up 
+multiple Virtual Machines that I can use either for my self hosted applications, networking, or just plain 
+experimentation.
+"""
+
+  [[params.education]]
+  courseName = "Praxis"
+  color = "red"
+  date = "August 2021 - August 2022"
+  description = """
+Praxis is an intensive 12-month alternative education program for entrepreneurial young people who want 
+real-world career experience and a rigorous, self-directed educational experience all in one.
+
+My time at Praxis was spent improving my business-oriented mindset and personal brand name, 
+along with working on professional projects such as content creation and a month-long final project.
+"""
+
+  [[params.education]]
+  courseName = "freeCodeCamp"
+  color = "blue"
+  date = "September 2022 - October 2022"
+  description = """
+freeCodeCamp is a charitable organization that provides high-quality coding tutorials for free. 
+They have thousands of videos and courses for almost every aspect of computer science and professional development. 
+
+There is no true start or end date since everything is free and available at all times. I started my journey in 
+development through some of their simple tutorials on YouTube. 
+
+In September 2022 I began their Scientific Computer with Python course. Through it, I learned more about the 
+Python language in a deeper way and gained a certificate to verify my work.  
+"""
+
+  [[params.education]]
+  courseName = "Boy Scouts of America"
+  date = "2014 - 2020"
+  description = """
+Boy Scouts is a youth program focused on adventure, character, life skills, and leadership. I completed mulitple
+projects and camping plans through my various leadership roles such as Senior Patrol leader, the highest youth position. 
+I was a part of the Order of Arrow and became an Eagle Scout. 
+"""
+
+  [[params.skills]]
+  name = "Troubleshooting"
+  percentage = 90
+  # Description = "you can add a description"
+
+  [[params.skills]]
+  name = "Linux"
+  percentage = 80
+  description = "Debian & NixOS"
+
+  [[params.skills]]
+  name = "Scripting"
+  percentage = 60
+  description = "Python, Bash, Git, Go, JavaScript"
+
+  [[params.skills]]
+  name = "Cloud"
+  percentage = 40
+  description = "Proxmox, AWS, Docker, networking"
+
+  [[params.softskills]]
+  name = "Leadership"
+  percentage = 60
+
+  [[params.softskills]]
+  name = "Self-motivation"
+  percentage = 90
+
+  [[params.softskills]]
+  name = "Problem Solving"
+  percentage = 80
+
+  [[params.softskills]]
+  name = "Communication"
+  percentage = 70
+
+  [[params.languages]]
+  name = "English"
+  color = "Blue"
+  percentage = 50
+
+  [[params.projects]]
+  title = "Home Lab"
+  color = "orange"
+  date = "since 2022"
+  description = "Building cool stuff on my old desktop. See 'work' for more details"
+
+  [[params.certifications]]
+  certName = "AWS Certified Cloud Practitioner"
+  company = "Amazon Web Services (AWS)"
+  date = "August 2022 - August 2025"
+  description = "https://www.credly.com/badges/5c78c377-9a9f-419f-97df-34dcdfe235a1/linked_in_profile"
+
+  [[params.certifications]]
+  certName = "Scientific Computing with Python"
+  company = "freeCodeCamp"
+  date = "October 2022"
+  description = "https://www.freecodecamp.org/certification/Josiah_Brown/scientific-computing-with-python-v7"
+  
+  [params.misc]
+  commandName = "more"
+  title = "Addition info about the tools I've used"
+  titleColor = "teal"
+  content = """
+Current daily drivers
+-----------------------------------------------------
+NixOS       Proxmox       Debian        Neovim
+GitHub      JSON          Yaml          Markdown
+Hugo        Bash          Python        Ubuntu-Server
+Git         AWS           Nix           Docker 
+WireGuard   Obsidian      ProtonMail    ZSH
+Wayland     Cloud-Init    CloudFlare    Docker-Compose
+HTML        CSS           OOP
+
+-----------------------------------------------------
+
+What I would like to know more about
+-----------------------------------------------------
+Proxmox     Ansible       Terraform     AWS
+Nginx       Windows-Server              CI/CD Pipelines
+
+-----------------------------------------------------
+
+I've used in the past
+-----------------------------------------------------
+GitLab      Selenium      unittest      VSCode
+VirtualBox  Jira          Figma         TailwindCSS
+ReactJS     JavaScript    WordPress     SQL
+PostgreSQL  Google Suite  Zapier
+"""
+
